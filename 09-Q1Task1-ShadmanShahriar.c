@@ -14,7 +14,7 @@ int main()
     switch(batch_num){
         case 153:
             switch(password){
-                case 101 ... 599:
+                case 101 ... 597:
                     switch(div_by_4){
                         case 1:
                             printf("Login Successful!\n");
@@ -24,7 +24,7 @@ int main()
                     }
                     break;
                     default:
-                        printf("Password must be from 101 to 599!\n");
+                        printf("Password must be from 101 to 597!\n");
             }
             break;
         case 221:
